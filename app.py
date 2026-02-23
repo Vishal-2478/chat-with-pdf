@@ -22,7 +22,7 @@ if not os.getenv("OPENAI_API_KEY"):
 # Streamlit Page Config
 # ===============================
 st.set_page_config(page_title="Chat with PDFs", page_icon="📄")
-st.title("📄 Chat with Multiple PDFs (Modern LCEL RAG)")
+st.title("📄 Chat with Multiple PDFs - RAG")
 
 # ===============================
 # Initialize Session State FIRST (before anything else)
